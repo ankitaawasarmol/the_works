@@ -14,7 +14,9 @@ body{
     border: none;
     padding: 40px 25px;
     background-color: lightpink;
-    width: 70%;
+    width: 700px;
+    height: 800px;
+    
 }
 
 .first{
@@ -23,21 +25,57 @@ body{
 }
 .second{
     border-top: 3px solid black;
-    padding-top: 15px;
+    padding-top: 10px;
+    
 }
 
+dd{
+    line-height: 0.3rem;
+    color: navy;
+}
 .profile{
-    padding-bottom: 25px;
+   color: navy;
+   padding-top: 1.0rem;
+}
+.profile1{
+    font-size: 0.8rem;
+    line-height: 0.3r;
+    color: navy;
 }
 
 i{
     color: navy;
 }
 
-/* .icons{
-    display: flex;
-    gap: 10px;
-    justify-content: space-between;
+.heading{
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top: 10px;
+    color: navy;
+}
+
+.small{
+    line-height: 0.8rem;
+    font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 600px) {
+   
+   .container{
+    border: none;
+    width: 400px;
+    height: 500px;
+    background-color: lightpink;
     
     
-} */
+}
+}
+
+@media only screen and (max-width: 400px) {
+    .container{
+        border: none;
+        width: 400px;
+        height: 500px;
+        background-color: lightpink;
+}
+}
