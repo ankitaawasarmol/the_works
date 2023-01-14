@@ -14,8 +14,8 @@ body{
     border: none;
     padding: 40px 25px;
     background-color: lightpink;
-    width: 700px;
-    height: 800px;
+    /* width: 700px;
+    height: 800px; */
     
 }
 
@@ -29,19 +29,20 @@ body{
     
 }
 
-dd{
+/* dd{
     line-height: 0.3rem;
     color: navy;
-}
+} */
 .profile{
    color: navy;
    padding-top: 1.0rem;
-}
-.profile1{
+   font-size: 2.2rem;
+} 
+ .profile1{
     font-size: 0.8rem;
     line-height: 0.3r;
     color: navy;
-}
+ }
 
 i{
     color: navy;
@@ -54,28 +55,67 @@ i{
     color: navy;
 }
 
-.small{
+.text{
     line-height: 0.8rem;
+    font-size: 0.8rem;
+    color: navy;
+}
+
+.text1{
+    line-height: 0.9rem;
+    font-size: 0.8rem;
+    color: navy;
+}
+.col-div-6{
+    width: 50%;
+    float: left;
+    padding: 0.4rem;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.circle{
+    font-size: 13px;
+}
+
+.p2{
     font-size: 0.8rem;
 }
 
-@media only screen and (max-width: 600px) {
-   
-   .container{
-    border: none;
-    width: 400px;
-    height: 500px;
-    background-color: lightpink;
-    
-    
-}
-}
+@media only screen and (max-width: 1000px) {
+    .profile{
+        color: navy;
+        padding-top: 1.0rem;
+        font-size: 1.5rem;
+     }    
+     .text{
+        line-height: 0.8rem;
+        font-size: 0.7rem;
+        color: navy;
+    }
 
-@media only screen and (max-width: 400px) {
+    .col-div-6{
+        width: 50%;
+        float: left;
+        padding: 0.4rem;
+    }
+    
+    .clearfix{
+        clear: both;
+    }
+    
+    .circle{
+        font-size: 8px;
+    }
+
+}
+@media only screen and (max-width: 600px) {
     .container{
         border: none;
-        width: 400px;
-        height: 500px;
+        width: 200px;
+        height: 300px;
         background-color: lightpink;
 }
 }
