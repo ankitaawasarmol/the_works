@@ -14,9 +14,8 @@ body{
     border: none;
     padding: 40px 25px;
     background-color: lightpink;
-    /* width: 700px;
-    height: 800px; */
-    
+    width: 100%;
+    max-width: 1024px;
 }
 
 .first{
@@ -35,13 +34,15 @@ body{
 } */
 .profile{
    color: navy;
-   padding-top: 1.0rem;
+   padding-top: 0.5rem;
+   /* padding-bottom: 1.2rem; */
    font-size: 2.2rem;
 } 
  .profile1{
     font-size: 0.8rem;
-    line-height: 0.3r;
+    line-height: 0.1rem;
     color: navy;
+    padding-bottom: 1.5rem;
  }
 
 i{
@@ -84,12 +85,30 @@ i{
     font-size: 0.8rem;
 }
 
-@media only screen and (max-width: 1000px) {
+.skills{
+    font-size: 80px;
+ }
+
+@media  (min-width: 900px) and (max-width: 1200px) {
+    /* .container{
+        border: none;
+        padding: 40px 25px;
+        background-color: lightpink;
+         width: 400px;
+        height: 700px;   
+    } */
+
     .profile{
         color: navy;
         padding-top: 1.0rem;
         font-size: 1.5rem;
      }    
+     .profile1{
+        font-size: 0.8rem;
+        line-height: 0.1rem;
+        color: navy;
+        padding-bottom: 1.5rem;
+     }
      .text{
         line-height: 0.8rem;
         font-size: 0.7rem;
@@ -109,13 +128,31 @@ i{
     .circle{
         font-size: 8px;
     }
-
+    .skills{
+       font-size: 60px;
+    }
 }
-@media only screen and (max-width: 600px) {
+
+@media  (min-width: 400px) and (max-width: 600px) {
     .container{
         border: none;
-        width: 200px;
-        height: 300px;
+        max-width: 100%;
         background-color: lightpink;
-}
+         
+    }
+    .profile{
+        color: navy;
+        padding-top: 1.0rem;
+        font-size: 1.2rem;
+     }
+     .profile1{
+        font-size: 0.8rem;
+        line-height: 0.1rem;
+        color: navy;
+        padding-bottom: 1.5rem;
+     }
+     .skills{
+        font-size: 40px;
+       padding-top: 20px;
+     }
 }
