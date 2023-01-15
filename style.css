@@ -28,14 +28,9 @@ body{
     
 }
 
-/* dd{
-    line-height: 0.3rem;
-    color: navy;
-} */
 .profile{
    color: navy;
    padding-top: 0.5rem;
-   /* padding-bottom: 1.2rem; */
    font-size: 2.2rem;
 } 
  .profile1{
@@ -90,14 +85,7 @@ i{
  }
 
 @media  (min-width: 900px) and (max-width: 1200px) {
-    /* .container{
-        border: none;
-        padding: 40px 25px;
-        background-color: lightpink;
-         width: 400px;
-        height: 700px;   
-    } */
-
+   
     .profile{
         color: navy;
         padding-top: 1.0rem;
